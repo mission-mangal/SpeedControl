@@ -17,7 +17,7 @@ private:
   bool polarity_reverse = false;
 
   //Motor Related Parameters
-  double CPR = 36124;
+  long CPR = 36124;
   float motorRadius = 1; // in metres
   float maxSpeed = 2.0; // Rotation Per Second
 
@@ -115,7 +115,7 @@ public:
     pid.setOutputRange(outputMin , outputMax);
   }
 
-  void setCPR(int cpr)
+  void setCPR(long cpr)
   {
     CPR = cpr;
   }
