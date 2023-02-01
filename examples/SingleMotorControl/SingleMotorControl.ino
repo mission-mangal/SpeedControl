@@ -1,7 +1,7 @@
 #include "SpeedControl.h"
 #include <Arduino.h>
 
-MotorControl motor1;
+SpeedControl motor1;
 
 void setup()
 {
