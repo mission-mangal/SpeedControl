@@ -1,8 +1,8 @@
 #include "SpeedControl.h"
 #include <Arduino.h>
 
-MotorControl frontLeft;
-MotorControl frontRight;
+SpeedControl frontLeft;
+SpeedControl frontRight;
 
 
 void setup()
