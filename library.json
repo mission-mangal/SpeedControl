@@ -1,6 +1,6 @@
 {
     "name": "Speed Control ",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "description": "This is a library aiming at implementing pid control to control the speed of a DC motor with feedback from quadrature encoder. It is a multifunctional  program with extra feature of tuning the gain parameters and very useful for robotic enthusiast in wheeled robots",
     "keywords": "DC motor, control system, PID , speed control , speed control with feedback, arduino motor speed control , teensy speed control",
     "repository":
